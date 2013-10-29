@@ -1,5 +1,4 @@
 #!/bin/bash
-#tryrethink.info domain services
 
 #HIPACHE location gets passed in
 REDIS_HOST=$1
@@ -16,6 +15,7 @@ DRUPAL8_PORT=$(docker port $TRYRETHINK_CONTAINER 80)
 # redis takes a bit of time to load up...
 sleep 5
 
+#print out the container ID
 echo $DRUPAL8_CONTAINER
 
 #make sure the main hipache knows about our new http://tryrethink.info domain.`
