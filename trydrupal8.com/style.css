@@ -1,0 +1,19 @@
+ body {
+  border-top: solid 10px #496f87;
+}
+
+.centered {
+  width: 60%;
+  margin:20px auto;
+  text-align: center;
+}
+
+a.btn {
+  width: 50%;
+  font-size: 3em;
+  margin-bottom: 10px
+}
+
+.sponsor {
+  font-size: 1.3em;
+}
