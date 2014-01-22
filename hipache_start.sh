@@ -19,9 +19,9 @@ REDIS_PORT=$(docker port $HIPACHE_CONTAINER 6379)
 REDIS_HOST=$BRIDGE_IP
 
 #export the variables to our envrionment
-export HIPACHE_CONTAINER
-export HIPACHE_PORT 
-export HIPACHE_BRIDGE
-export BRIDGE_IP 
-export REDIS_PORT
-export REDIS_HOST 
+#export HIPACHE_CONTAINER
+#export HIPACHE_PORT 
+#export HIPACHE_BRIDGE
+#export BRIDGE_IP 
+#export REDIS_PORT
+#export REDIS_HOST 
